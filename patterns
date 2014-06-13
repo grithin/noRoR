@@ -1,0 +1,39 @@
+passwords files apart from instance
+
+mapping urls -> pages
+	allows intuitive urls mapped to intuitive internal structure
+		intuitive based on context (user vs programmer)
+mapping urls -> files
+container performing common actions
+	load functionality
+		autoloader
+		debugging
+		forms
+		url analysis
+db class
+	result form choice
+		hash, array
+	lazy loading
+
+require login function
+
+forms default extracted from model
+validation default extracted from model
+
+Common Filters
+	forTitle
+	stucture
+	js
+	css
+Files download to temp position until pass filter
+Form validation
+	model defines filters
+	field has filter?
+		test filters
+		field required? and field failed filter?
+			field has error?
+				save error
+			field breaks further parsing?
+				break
+	didn't fail filter?
+		passed.append(field)

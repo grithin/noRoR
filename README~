@@ -1,0 +1,5 @@
+I post this here primarily for the use of the files in the inc/ directory by others.  This represents a ruby framework  I made around 2008 in response to not liking RoR.  I barely remember writing it.  
+
+I have extracted this from a site that I built with it.  Consequently, I have not included various directories (ctrl, file, mdl, rsrc, tmpl).   My coding standards were a little unpolished at the time (ctrl = control, rsrc = resource, mdl = model, tmpl = template)
+
+I have included the "patterns" doc which was my sketch of the patterns I was using at the time.  For better standards, see http://brushfire.deemit.com/doc/standards
